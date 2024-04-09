@@ -84,13 +84,13 @@
 
 #image-container img {
     margin-left: 32px;
-    width: 95px;
+    width: 90px;
     /* Image width fills the container */
-    height: 95px;
+    height: 90px;
     /* Maintain aspect ratio */
     object-fit: cover;
     /* Ensure image covers the entire container */
-    position: absolute;
+    position: relative;
     /* Position the image absolutely within the container */
     top: 0;
     left: 0;
