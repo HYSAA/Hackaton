@@ -7,6 +7,8 @@ import { NurseHomePageComponent } from './nurse-home-page/nurse-home-page.compon
 import { DoctorHomePageComponent } from './doctor-home-page/doctor-home-page.component';
 import { RegistrationNursePatientPageComponent } from './registration-nurse-patient-page/registration-nurse-patient-page.component';
 import { HeaderComponent } from './header/header.component';
+import { RegistrationNurseAddDetailsComponent } from './registration-nurse-add-details/registration-nurse-add-details.component';
+import { AddDailyReportComponent } from './add-daily-report/add-daily-report.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { HeaderComponent } from './header/header.component';
     NurseHomePageComponent,
     DoctorHomePageComponent,
     RegistrationNursePatientPageComponent,
-    HeaderComponent
+    HeaderComponent,
+    RegistrationNurseAddDetailsComponent,
+    AddDailyReportComponent
   ],
   imports: [
     BrowserModule,
