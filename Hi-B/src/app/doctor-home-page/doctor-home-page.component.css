@@ -16,14 +16,14 @@
 }
 
 #left-container{
-    border: solid;
+    /* border: solid; */
     position: absolute;
     top: 95px;
     left: 30px;
     box-sizing: border-box;
     height: 90%;
     width: 25%;
-    
+    background-color: #FFF;
     
 }
 
@@ -32,13 +32,14 @@
     position: absolute;
     top: 20px;
     border-radius: 10%;
-    border: solid;
+    /* border: solid; */
     left: 25%;
 }
 
 #personal-information{
     font-size: 23px;
-    border: solid;
+    /* border: solid; */
+    
     width: 100%;
     top: 40%;
     position: absolute;
@@ -47,7 +48,8 @@
 
 #lower-btn{
     position: absolute;
-    border: solid;
+    
+    /* border: solid; */
     left: 5%;
     bottom: 25%;
     width: fit-content;
