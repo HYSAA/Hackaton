@@ -1,0 +1,27 @@
+#main {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    /* Optionally, you can add padding and margin if needed */
+
+    display: flex;
+    justify-content: center;
+    /* Horizontally center */
+    align-items: center;
+    /* Vertically center */
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+}
+
+.center img {
+    margin-right: 10px; /* Adjust spacing between the image and the heading */
+}

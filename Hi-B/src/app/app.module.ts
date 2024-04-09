@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { RealDoctorHomepageComponent } from './real-doctor-homepage/real-doctor-homepage.component';
 import { RegistrationNurseAddDetailsComponent } from './registration-nurse-add-details/registration-nurse-add-details.component';
 import { AddDailyReportComponent } from './add-daily-report/add-daily-report.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AddDailyReportComponent } from './add-daily-report/add-daily-report.com
     HeaderComponent,
     RealDoctorHomepageComponent,
     RegistrationNurseAddDetailsComponent,
-    AddDailyReportComponent
+    AddDailyReportComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
