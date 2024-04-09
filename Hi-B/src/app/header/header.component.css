@@ -1,15 +1,3 @@
-#main {
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #f0f0f0;
-    box-sizing: border-box;
-    /* Optionally, you can add padding and margin if needed */
-
-}
-
 #header {
     top: 0px;
     left: 0px;
@@ -33,4 +21,3 @@
     padding: 0 20px; /* 20px padding on left and right */
     border-right: 1px solid rgb(204, 203, 203);
 }
-
