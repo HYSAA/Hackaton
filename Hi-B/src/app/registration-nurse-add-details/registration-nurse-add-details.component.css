@@ -4,16 +4,20 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
+  
 }
-body{
+body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-color: #FBAB7E;
- background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
- 
+
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+.supercontainer{
+  background-color: #f0f0f0;
+  height: 97.5vh;
 }
 .container{
   /* max-width: 700px; */
