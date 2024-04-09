@@ -25,3 +25,32 @@
 .center img {
     margin-right: 10px; /* Adjust spacing between the image and the heading */
 }
+
+#logo{
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center  {
+    margin-right: 10px;
+    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1); /* Smoother transition */
+}
+
+.center:hover  {
+    transform: scale(1.10); /* Scale the image by 10% on hover */
+    cursor: pointer;
+}
+
+h1 {
+    margin: 0; /* Remove default margin for h1 */
+}
