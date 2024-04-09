@@ -3,34 +3,182 @@
     left: 0px;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: #f0f0f0;
     box-sizing: border-box;
     /* Optionally, you can add padding and margin if needed */
 
+    padding-top: 150px;
+
+
 }
 
-#header {
-    top: 0px;
-    left: 0px;
+#sub {
+    /* background-color: aqua; */
+    width: 100%;
+    height: calc(100% - 150px);
+    /* height: max-content; */
+    box-sizing: border-box;
     position: absolute;
+
+    padding-left: 70px;
+}
+
+#sidebar td {
+
+    width: 100%;
+    font-weight: 400;
+    font-size: 22px;
+
+}
+
+#sidebar tr {
     width: 100%;
     
+    /* transition: transform 0.2s ease; */
+    cursor: pointer;
+    
+}
+
+
+#sidebar tr, td {
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+
+
+
+
+#left {
+    width: calc(12% - 30px);
+    /* Adjusting for margins and spacing between divs */
+    float: left;
+    margin-left: 10px;
+
+    /* Space between the two divs */
+    height: 100%;
+    /* Ensuring both divs are the same height */
+    box-sizing: border-box;
+    /* border: 1px solid rgb(204, 203, 203); */
+
+}
+
+
+#image-container {
+    /* background-color: blanchedalmond; */
+    width: 100%;
+    /* Adjusting for margins and spacing between divs */
+    float: left;
+
+
+    height: 110px;
+    /* Fixed height */
+    /* box-sizing: border-box; */
+    /* border: 1px solid rgb(204, 203, 203); */
+    position: relative;
+    /* Required for absolute positioning of image */
+}
+
+#image-container img {
+    margin-left: 32px;
+    width: 95px;
+    /* Image width fills the container */
+    height: 95px;
+    /* Maintain aspect ratio */
+    object-fit: cover;
+    /* Ensure image covers the entire container */
+    position: absolute;
+    /* Position the image absolutely within the container */
+    top: 0;
+    left: 0;
+}
+
+
+
+#right {
+    width: 1500px;
+    /* Adjusting for margins and spacing between divs */
+    float: left;
+    /* margin-right: 20px; */
+    background-color: white;
+
+    /* Space between the two divs */
+    height: 100%;
+    /* Ensuring both divs are the same height */
+    box-sizing: border-box;
+    /* border-top: 1px solid red; */
+
+
+
+    border: 1px solid rgb(204, 203, 203);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#table1 td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    /* Align text to the left */
+}
+
+#table1 th {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    /* Align text to the left */
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+
+
+tr:hover {
+    background-color: #251e1e;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+#title-container {
+    top: 0px;
+    left: 0px;
+    position: relative;
+    width: 100%;
+
     /* border-style: solid; */
     border-color: #E2E2E2;
     box-sizing: border-box;
     background-color: #fff;
     /* border-style: solid; */
-    border: 1px solid rgb(204, 203, 203)
-    
-    /* Optionally, you can add padding and margin if needed */
+    border-bottom: 1px solid rgb(204, 203, 203)
+        /* Optionally, you can add padding and margin if needed */
 
 }
 
-#home{
-    display: inline-block; /* Ensure the div only takes up the necessary width */
-    padding: 0 30px; 
-    padding: 0 20px; /* 20px padding on left and right */
-    border-right: 1px solid rgb(204, 203, 203);
-}
 
+#title {
+    display: inline-block;
+    /* Ensure the div only takes up the necessary width */
+
+    padding: 0 90px;
+    /* border-right: 1px solid rgb(204, 203, 203); */
+    padding-top: 20px;
+    /* font-weight: bold; */
+    font-size: 30px;
+    padding-bottom: 20px;
+}

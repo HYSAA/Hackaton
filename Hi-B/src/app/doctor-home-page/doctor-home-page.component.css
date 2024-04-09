@@ -6,26 +6,97 @@
     position: fixed;
     background-color: #F0F0F0;
 }
-#header{
-    position: static;
-    background-color: #ffff;
-    top: 0px;
-    width: 100%;
-    /* height: 60px; */
-    padding:20px;
-    border:solid
-}
 
-#header h1{
-    width: fit-content;
-    /* border: solid; */
-    /* left: 20px; */
-    /* position: absolute; */
-}
 
 #bottom-container{
     border: solid;
     width: 100%;
     height: max-content;
-    position: static;
+    
 }
+
+#left-container{
+    /* border: solid; */
+    position: absolute;
+    top: 95px;
+    left: 30px;
+    box-sizing: border-box;
+    height: 90%;
+    width: 25%;
+    background-color: #FFF;
+    
+}
+
+
+#logo{
+    position: absolute;
+    top: 20px;
+    border-radius: 10%;
+    /* border: solid; */
+    left: 25%;
+}
+
+#personal-information{
+    font-size: 23px;
+    /* border: solid; */
+    
+    width: 100%;
+    top: 40%;
+    position: absolute;
+}
+
+
+#lower-btn{
+    position: absolute;
+    
+    /* border: solid; */
+    left: 5%;
+    bottom: 25%;
+    width: fit-content;
+    height: fit-content;
+}
+
+#lower-btn button
+{
+    width: fit-content;
+    height: 50px;
+    font-size: 17px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#lower-btn button:hover
+{
+    background-color: #251e1e;
+    color: white;
+    cursor: pointer;
+}
+
+#view-patients-report{
+    position: absolute;
+    /* border: solid; */
+    background-color: #FFF;
+    padding: 2px;
+    width: 70%;
+    height: 90%;
+    right: 30px;
+    top: 95px;
+}
+
+#patients-report{
+    border-top: 1px solid;
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+tr:nth-child(odd) {
+    background-color: #F0F0F0;
+}
+
+tr:nth-child(even){
+    background-color: #FFF;
+}
+
+
