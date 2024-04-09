@@ -8,6 +8,8 @@ import { DoctorHomePageComponent } from './doctor-home-page/doctor-home-page.com
 import { RegistrationNursePatientPageComponent } from './registration-nurse-patient-page/registration-nurse-patient-page.component';
 import { HeaderComponent } from './header/header.component';
 import { RealDoctorHomepageComponent } from './real-doctor-homepage/real-doctor-homepage.component';
+import { RegistrationNurseAddDetailsComponent } from './registration-nurse-add-details/registration-nurse-add-details.component';
+import { AddDailyReportComponent } from './add-daily-report/add-daily-report.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { RealDoctorHomepageComponent } from './real-doctor-homepage/real-doctor-
     DoctorHomePageComponent,
     RegistrationNursePatientPageComponent,
     HeaderComponent,
-    RealDoctorHomepageComponent
+    RealDoctorHomepageComponent,
+    RegistrationNurseAddDetailsComponent,
+    AddDailyReportComponent
   ],
   imports: [
     BrowserModule,
