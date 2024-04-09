@@ -65,6 +65,13 @@
     margin-left: 20px;
 }
 
+#lower-btn button:hover
+{
+    background-color: #251e1e;
+    color: white;
+    cursor: pointer;
+}
+
 #view-patients-report{
     position: absolute;
     /* border: solid; */
