@@ -96,6 +96,11 @@
     left: 0;
 }
 
+button{
+    cursor: pointer;
+    border: none;
+}
+
 
 
 #right {
