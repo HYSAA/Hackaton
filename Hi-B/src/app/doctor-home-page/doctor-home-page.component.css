@@ -16,35 +16,80 @@
 }
 
 #left-container{
-    border: solid;
+    /* border: solid; */
     position: absolute;
     top: 95px;
-    left: 10px;
+    left: 30px;
     box-sizing: border-box;
     height: 90%;
     width: 25%;
-    
+    background-color: #FFF;
     
 }
 
 
 #logo{
     position: absolute;
-    top: 10px;
-    border: solid;
-    left: 8%;
+    top: 20px;
+    border-radius: 10%;
+    /* border: solid; */
+    left: 25%;
 }
 
-#register-Patient{
-    position: relative;
-    top: 35%;
-    left: 10%;
-    margin: 10px;
-    height: fit-content;
+#personal-information{
+    font-size: 23px;
+    /* border: solid; */
+    
+    width: 100%;
+    top: 40%;
+    position: absolute;
+}
+
+
+#lower-btn{
+    position: absolute;
+    
+    /* border: solid; */
+    left: 5%;
+    bottom: 25%;
     width: fit-content;
-    border: solid;
+    height: fit-content;
 }
 
-#register-Patient button{
-    font-size: 40px;    
+#lower-btn button
+{
+    width: fit-content;
+    height: 50px;
+    font-size: 17px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
+
+#view-patients-report{
+    position: absolute;
+    /* border: solid; */
+    background-color: #FFF;
+    padding: 2px;
+    width: 70%;
+    height: 90%;
+    right: 30px;
+    top: 95px;
+}
+
+#patients-report{
+    border-top: 1px solid;
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+tr:nth-child(odd) {
+    background-color: #F0F0F0;
+}
+
+tr:nth-child(even){
+    background-color: #FFF;
+}
+
+
