@@ -6,26 +6,45 @@
     position: fixed;
     background-color: #F0F0F0;
 }
-#header{
-    position: static;
-    background-color: #ffff;
-    top: 0px;
-    width: 100%;
-    /* height: 60px; */
-    padding:20px;
-    border:solid
-}
 
-#header h1{
-    width: fit-content;
-    /* border: solid; */
-    /* left: 20px; */
-    /* position: absolute; */
-}
 
 #bottom-container{
     border: solid;
     width: 100%;
     height: max-content;
-    position: static;
+    
+}
+
+#left-container{
+    border: solid;
+    position: absolute;
+    top: 95px;
+    left: 10px;
+    box-sizing: border-box;
+    height: 90%;
+    width: 25%;
+    
+    
+}
+
+
+#logo{
+    position: absolute;
+    top: 10px;
+    border: solid;
+    left: 8%;
+}
+
+#register-Patient{
+    position: relative;
+    top: 35%;
+    left: 10%;
+    margin: 10px;
+    height: fit-content;
+    width: fit-content;
+    border: solid;
+}
+
+#register-Patient button{
+    font-size: 40px;    
 }
