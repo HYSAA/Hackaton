@@ -3,38 +3,55 @@
     left: 0px;
     position: absolute;
     width: 100%;
-    
+
     /* border-style: solid; */
     border-color: #E2E2E2;
     box-sizing: border-box;
     background-color: #fff;
     /* border-style: solid; */
     border: 1px solid rgb(204, 203, 203)
-    
-    /* Optionally, you can add padding and margin if needed */
+        /* Optionally, you can add padding and margin if needed */
 
 }
 
-#home{
-    display: inline-block; /* Ensure the div only takes up the necessary width */
+#home {
+    display: inline-block;
+    /* Ensure the div only takes up the necessary width */
     /* padding: 0 40px;  */
-    padding: 0 40px; /* 20px padding on left and right */
+    padding: 0 40px;
+    /* 20px padding on left and right */
+    border-right: 1px solid rgb(204, 203, 203);
+}
+
+
+#home button {
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}
+
+
+#home2 button {
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}
+
+
+
+#home2 {
+    display: inline-block;
+    /* Ensure the div only takes up the necessary width */
+    padding: 0 30px;
+    padding: 0 20px;
+    /* 20px padding on left and right */
     border-right: 1px solid rgb(204, 203, 203);
 }
 
 
 
-#home2{
-    display: inline-block; /* Ensure the div only takes up the necessary width */
-    padding: 0 30px; 
-    padding: 0 20px; /* 20px padding on left and right */
-    border-right: 1px solid rgb(204, 203, 203);
-}
 
 
-
-
-
-#home h3{
-    font-weight:bolder;
+#home h3 {
+    font-weight: bolder;
 }

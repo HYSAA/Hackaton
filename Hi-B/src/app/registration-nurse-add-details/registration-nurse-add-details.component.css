@@ -6,6 +6,11 @@
   font-family: 'Poppins',sans-serif;
   
 }
+.containerProMaxP{
+padding-bottom: 100%;
+
+  
+}
 body {
   height: 100vh;
   display: flex;
@@ -17,9 +22,11 @@ body {
 }
 .supercontainer{
   background-color: #f0f0f0;
-  height: 97.5vh;
+  height: 98vh;
+  padding-top: 150px;
 }
 .container{
+  
   /* max-width: 700px; */
   width: 550px;  /* Adjust as needed */
   margin: 0 auto;  /* Centers the container horizontally */
